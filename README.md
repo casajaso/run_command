@@ -1,5 +1,6 @@
-# run_command
-### _usage:_ 
+#run_command
+##run commands on remote host over ssh
+###_usage:_ 
     run_command.py [-h] [-c ['COMMAND' '...']] [-b [BASTIAN]] [-u [USERNAME]] [-i [IDENTITYFILE]] [-p] [hostname]
 
     run commands on remote host over ssh
@@ -19,8 +20,8 @@
       -i [IDENTITYFILE], --identityfile [IDENTITYFILE]
                             use ssh identify file; opens prompt (default: None)
       -p, --password        use password; opens prompt (default: no flag set)
-### _install:_
+###_install:_
     # git clone https://github.com/casajaso/run_command.git
     # cd run_command
-    # pip install -r requirments.txt
+    # pip install -r requirements.txt
     # run_command.py -h
