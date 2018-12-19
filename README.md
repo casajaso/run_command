@@ -24,4 +24,4 @@
     # git clone https://github.com/casajaso/run_command.git
     # cd run_command
     # pip install -r requirements.txt
-    # run_command.py -h
+    # ./run_command.py -h
