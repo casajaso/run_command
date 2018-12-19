@@ -1,3 +1,23 @@
-*.py[cod]     # Will match .pyc, .pyo and .pyd files.
-__pycache__/  # Exclude the whole folder
-Pipfile	      # Exclude pipenv files
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+eggs/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+.gitignore
+.eggs/
