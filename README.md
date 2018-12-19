@@ -1,5 +1,5 @@
 # run_command
-### usage: 
+### _usage:_ 
     run_command.py [-h] [-c ['COMMAND' '...']] [-b [BASTIAN]] [-u [USERNAME]] [-i [IDENTITYFILE]] [-p] [hostname]
 
     run commands on remote host over ssh
