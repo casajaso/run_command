@@ -19,5 +19,8 @@
       -i [IDENTITYFILE], --identityfile [IDENTITYFILE]
                             use ssh identify file; opens prompt (default: None)
       -p, --password        use password; opens prompt (default: no flag set)
-
-  
+### _install:_
+    # git clone https://github.com/casajaso/run_command.git
+    # cd run_command
+    # pip install -r requirments.txt
+    # run_command.py -h
