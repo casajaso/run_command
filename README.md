@@ -1,4 +1,4 @@
-<a href="https://github.com/casajaso"><img src="https://avatars2.githubusercontent.com/u/44911805?s=400&u=c53584df8bf9c1f3dab3c97e48d97ae3ed55cf6f&v=4" title="Jason Casas" alt="Jason Casas"></a>
+<a href="https://github.com/casajaso"><img src="https://avatars2.githubusercontent.com/u/44911805?s=200&u=c53584df8bf9c1f3dab3c97e48d97ae3ed55cf6f&v=4" title="Jason Casas" alt="Jason Casas"></a>
 
 <!-- [![Jason Casas](https://avatars2.githubusercontent.com/u/44911805?s=400&u=c53584df8bf9c1f3dab3c97e48d97ae3ed55cf6f&v=4)](https://github.com/casajaso) -->
 
