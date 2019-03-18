@@ -4,7 +4,7 @@
 
 ***INSERT GRAPHIC HERE (include hyperlink in image)***
 
-# runsshcmd
+# run_command
 
 > Run command(s) on remote host over SSH connection
 
@@ -43,7 +43,61 @@
 ## Example (Optional)
 
 ```shell
-usage: runsshcmd.py [-h] -c COMMAND [COMMAND ...] [-b [BASTIAN]]
+$ run_command.py -c 'uname -a' 'whoami' 'date' -u jason -i .ssh/access.pem sshserver001
+```
+
+---
+
+## Installation
+
+### Clone
+
+- Clone this repo to your local machine 
+
+> HTTPS
+
+```shell
+$ git clone https://github.com/casajaso/run_command.git
+```
+
+> SSH
+
+```shell
+$ git clone git@github.com:casajaso/run_command.git
+```
+
+### Setup
+
+- Prerequisites:
+
+> install and configure prereqs
+
+```shell
+$ install prereq
+$ config prereq 
+```
+
+> Install run_command
+
+```shell
+$ cd run_command 
+$ pip install run_command
+```
+
+---
+
+## Features
+
+> Supports multiple authentication methods:
+
+- interactive password
+- ssh_agent key files
+- ssh private key file (from filesystem)
+
+## Usage 
+
+```shell
+usage: run_command.py [-h] -c COMMAND [COMMAND ...] [-b [BASTIAN]]
                     [-u [USERNAME]] [-i [IDENTITYFILE]] [-p]
                     [hostname]
 
@@ -67,56 +121,7 @@ optional arguments:
 
 ```
 
----
-
-## Installation
-
-### Clone
-
-- Clone this repo to your local machine 
-
-> HTTPS
-
-```shell
-$ git clone https://github.com/casajaso/runsshcmd.git
-```
-
-> SSH
-
-```shell
-$ git clone git@github.com:casajaso/runsshcmd.git
-```
-
-### Setup
-
-- Prerequisites:
-
-> install and configure prereqs
-
-```shell
-$ install prereq
-$ config prereq 
-```
-
-> Install runsshcmd
-
-```shell
-$ cd runsshcmd 
-$ pip install runsshcmd
-```
-
----
-
-## Features
-
-
-
-## Usage (Optional)
-## Documentation (Optional)
-## Tests (Optional)
-
-- Going into more detail on code and technologies used
-- I utilized this nifty <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet" target="_blank">Markdown Cheatsheet</a> for this sample `README`.
+## Testsing
 
 ---
 
@@ -124,40 +129,41 @@ $ pip install runsshcmd
 
 > To contribute to the project...
 
-### Step 1
+> Fork or Clone this Repo
 
 - **Option 1**
     - Fork this repo!
 
 - **Option 2**
-    - Clone this repo `https://github.com/casajaso/runsshcmd.git`
+    - Clone this repo `https://github.com/casajaso/run_command.git`
 
-### Step 2
+> Hack Away!
 
 - **HACK AWAY!**
 
-### Step 3
+> Create a pull request
 
-- Create a new pull request <a href="https://github.com/casajaso/runsshcmd/compare/" target="_blank">`https://github.com/casajaso/runsshcmd/compare/`</a>.
+- Create a new pull request <a href="https://github.com/casajaso/run_command/compare/" target="_blank">`https://github.com/casajaso/run_command/compare/`</a>.
 
 ---
 
 ## Contributers
 
-[contributors]: https://github.com/casajaso/runsshcmd/contributors
+[contributors]: https://github.com/casajaso/run_command/contributors
 
 ---
 
 ## FAQ
 
+- None (yet...)
 
 ## Support
 
 Reach out to me at one of the following places!
 
-- Github <a href="https://github.com/casajaso" target="_blank">`Jason Casas`</a>
-- Twitter <a href="https://twitter.com/ARE_KADE" target="_blank">`@ARE_KADE`</a>
-- Email <a href="mailto:arkaydez@gmail.com">Jason Casas</a>
+- Github: <a href="https://github.com/casajaso" target="_blank">`Jason Casas`</a>
+- Twitter: <a href="https://twitter.com/ARE_KADE" target="_blank">`@ARE_KADE`</a>
+- Email: <a href="mailto:arkaydez@gmail.com">arkaydez@gmail.com</a>
 
 ---
 
