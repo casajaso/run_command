@@ -27,8 +27,26 @@
 
 ## Example (Optional)
 
+> Run with password auth
+
+```shell
+$ run_command.py -c 'uname -a' 'whoami' 'date' -u jason -p sshserver001
+input password for jason:
+
+Darwin sshserver001 18.2.0 Darwin Kernel Version 18.2.0: Thu Dec 20 20:46:53 PST 2018; root:xnu-4903.241.1~1/RELEASE_X86_64 x86_64
+jason
+Mon Mar 18 16:48:52 PDT 2019
+
+```
+> Run with keyfile auth
+
 ```shell
 $ run_command.py -c 'uname -a' 'whoami' 'date' -u jason -i .ssh/access.pem sshserver001
+
+Darwin sshserver001 18.2.0 Darwin Kernel Version 18.2.0: Thu Dec 20 20:46:53 PST 2018; root:xnu-4903.241.1~1/RELEASE_X86_64 x86_64
+jason
+Mon Mar 18 16:48:52 PDT 2019
+
 ```
 
 ---
