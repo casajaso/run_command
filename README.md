@@ -25,9 +25,9 @@
 
 ---
 
-## Example (Optional)
+## Examples
 
-> Run with password auth
+> Run with password auth:
 
 ```shell
 $ run_command.py -c 'uname -a' 'whoami' 'date' -u jason -p sshserver001
@@ -38,7 +38,7 @@ jason
 Mon Mar 18 16:48:52 PDT 2019
 
 ```
-> Run with keyfile auth
+> Run with keyfile auth:
 
 ```shell
 $ run_command.py -c 'uname -a' 'whoami' 'date' -u jason -i .ssh/access.pem sshserver001
@@ -71,8 +71,6 @@ $ git clone git@github.com:casajaso/run_command.git
 
 ### Setup
 
-- Prerequisites:
-
 > install and configure prereqs
 
 ```shell
@@ -91,11 +89,13 @@ $ pip install run_command
 
 ## Features
 
-### Supports multiple authentication methods:
+- Supports the following authentication methods:
 
-- interactive password
-- private keys stored in ssh_agent
-- private keys stored on file-system
+-- interactive password
+-- private keys stored in ssh_agent
+-- private keys stored on file-system
+
+- Supports Proxy Hosts (bastion/jumpbox)
 
 ## Usage 
 
