@@ -52,15 +52,15 @@ $ run_command.py -c 'uname -a' 'whoami' 'date' -u jason -i .ssh/access.pem sshse
 
 ### Clone
 
-- Clone this repo to your local machine 
+- Clone this repo to your local machine via https or ssh
 
-> HTTPS
+> HTTPS:
 
 ```shell
 $ git clone https://github.com/casajaso/run_command.git
 ```
 
-> SSH
+> SSH:
 
 ```shell
 $ git clone git@github.com:casajaso/run_command.git
@@ -88,11 +88,11 @@ $ pip install run_command
 
 ## Features
 
-> Supports multiple authentication methods:
+### Supports multiple authentication methods:
 
 - interactive password
-- ssh_agent key files
-- ssh private key file (from filesystem)
+- private keys stored in ssh_agent
+- private keys stored on file-system
 
 ## Usage 
 
@@ -127,23 +127,19 @@ optional arguments:
 
 ## Contributing
 
-> To contribute to the project...
+### To contribute to the project...
 
 > Fork or Clone this Repo
 
-- **Option 1**
-    - Fork this repo!
-
-- **Option 2**
-    - Clone this repo `https://github.com/casajaso/run_command.git`
+- Fork or Clone this repo: `https://github.com/casajaso/run_command.git`
 
 > Hack Away!
 
-- **HACK AWAY!**
+- add/remove/edit/**break**/fix
 
 > Create a pull request
 
-- Create a new pull request <a href="https://github.com/casajaso/run_command/compare/" target="_blank">`https://github.com/casajaso/run_command/compare/`</a>.
+- Create a new pull request at: <a href="https://github.com/casajaso/run_command/compare/" target="_blank">`https://github.com/casajaso/run_command/compare/`</a>.
 
 ---
 
