@@ -89,11 +89,7 @@ $ pip install run_command
 
 ## Features
 
-- Supports the following authentication methods:
-
--- interactive password
--- private keys stored in ssh_agent
--- private keys stored on file-system
+- Supports multiple authentication methods: interactive password, private keys stored in ssh_agent, private keys stored on file-system
 
 - Supports Proxy Hosts (bastion/jumpbox)
 
