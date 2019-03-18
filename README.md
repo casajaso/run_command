@@ -135,7 +135,7 @@ optional arguments:
 
 > Hack Away!
 
-- add/remove/edit/**break**/fix
+- edit/update/add/remove/***break :P***/fix
 
 > Create a pull request
 
@@ -158,7 +158,6 @@ optional arguments:
 Reach out to me at one of the following places!
 
 - Github: <a href="https://github.com/casajaso" target="_blank">`Jason Casas`</a>
-- Twitter: <a href="https://twitter.com/ARE_KADE" target="_blank">`@ARE_KADE`</a>
 - Email: <a href="mailto:arkaydez@gmail.com">arkaydez@gmail.com</a>
 
 ---
